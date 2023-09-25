@@ -1,0 +1,28 @@
+Q4
+print("selcet one of the following")
+print("A: Multiply")
+print("B: Divde")
+print("C: Add")
+print("D: Subtract")
+print("E: Remainder division")
+type=input()
+if type.lower() == "a":
+  num1=int(input("num 1 >> "))
+  num2=int(input("num 2 >> "))
+  print(num1*num2)
+if type.lower() == "b":
+  num1=int(input("num 1 >> "))
+  num2=int(input("num 2 >> "))
+  print(num1/num2)
+if type.lower() == "c":
+  num1=int(input("num 1 >> "))
+  num2=int(input("num 2 >> "))
+  print(num1+num2)
+if type.lower() == "d":
+  num1=int(input("num 1 >> "))
+  num2=int(input("num 2 >> "))
+  print(num1-num2)
+if type.lower() == "e":
+  num1=int(input("num 1 >> "))
+  num2=int(input("num 2 >> "))
+  print(num1%num2)
